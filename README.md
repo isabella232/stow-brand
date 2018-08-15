@@ -25,6 +25,14 @@ This module is installable using `npm`:
 npm i linnia-brand
 ```
 
+#### Publishing
+
+To publish a new version of this package, increment the version number in `package.json` by at least `0.0.1`, then run:
+
+```bash
+npm run deploy
+```
+   
 ## Demo
 
 You can run a demo to see the components and theme in action by running:
