@@ -97,6 +97,7 @@ Linnia Logo as a customizable SVG/
 import Logo from 'linnia-brand/components/Logo';
 
 <Logo />
+```
 
 ### Props
 
