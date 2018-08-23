@@ -33,6 +33,14 @@ const theme = createMuiTheme({
       color: black,
     },
   },
+  overrides: {
+    MuiButton: {
+      root: {
+        color: white,
+        backgroundColor: purple
+      }
+    }
+  },
   palette: {
     primary: {
       main: teal,
