@@ -10,21 +10,26 @@ const black = '#000';
 const white = '#fff';
 const gray = '#5D6265';
 
+const primaryFont = 'Raleway';
+const secondaryFont = 'Heavitas'
+
 const theme = createMuiTheme({
   typography: {
-    fontFamily: 'Heavitas',
+    primary: primaryFont,
+    secondary: secondaryFont,
+    fontFamily: secondaryFont,
     body1: {
-      fontFamily: 'Raleway',
+      fontFamily: primaryFont,
       fontSize: 24,
     },
     body2: {
-      fontFamily: 'Raleway',
+      fontFamily: primaryFont,
     },
     subheading: {
-      fontFamily: 'Raleway',
+      fontFamily: primaryFont,
     },
     caption: {
-      fontFamily: 'Raleway',
+      fontFamily: primaryFont,
     },
     title: {
       fontSize: 28,
@@ -37,9 +42,9 @@ const theme = createMuiTheme({
     MuiButton: {
       root: {
         color: white,
-        backgroundColor: purple
-      }
-    }
+        backgroundColor: purple,
+      },
+    },
   },
   palette: {
     primary: {
