@@ -1,6 +1,6 @@
 {
-  "name": "linnia-brand",
-  "version": "1.0.15",
+  "name": "@stowprotocol/brand",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
