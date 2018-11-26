@@ -11,7 +11,7 @@ const white = '#fff';
 const gray = '#5D6265';
 
 const primaryFont = 'Raleway';
-const secondaryFont = 'Heavitas'
+const secondaryFont = 'Heavitas';
 
 const theme = createMuiTheme({
   typography: {
